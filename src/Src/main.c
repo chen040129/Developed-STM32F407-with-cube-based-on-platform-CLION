@@ -54,50 +54,7 @@
 void SystemClock_Config(void);
 /* USER CODE BEGIN PFP */
 /*
-const u16 POINT_COLOR_TBL[5]={RED,GREEN,BLUE,BROWN};
 
-void Load_Drow_Dialog(void)
-{
-    lcd_clear(WHITE);//清屏
-
-    //	POINT_COLOR=RED;//设置画笔蓝色
-}
-
-void ctp_test(void)
-{
-    u8 t=0;
-    u8 i=0;
-    u16 lastpos[5][2];		//�?后一次的数据
-    while(1)
-    {
-        tp_dev.scan(0);
-        for(t=0;t<5;t++)
-        {
-            if((tp_dev.sta)&(1<<t))
-            {
-                printf("X坐标:%d,Y坐标:%d\r\n",tp_dev.x[0],tp_dev.y[0]);
-                if(tp_dev.x[t]<lcddev.width&&tp_dev.y[t]<lcddev.height)
-                {
-                    if(lastpos[t][0]==0XFFFF)
-                    {
-                        lastpos[t][0] = tp_dev.x[t];
-                        lastpos[t][1] = tp_dev.y[t];
-                    }
-
-                    lcd_draw_bline(lastpos[t][0],lastpos[t][1],tp_dev.x[t],tp_dev.y[t],2,POINT_COLOR_TBL[t]);//画线
-                    lastpos[t][0]=tp_dev.x[t];
-                    lastpos[t][1]=tp_dev.y[t];
-                    if(tp_dev.x[t]>(lcddev.width-24)&&tp_dev.y[t]<20)
-                    {
-                        Load_Drow_Dialog();//清除
-                    }
-                }
-            }else lastpos[t][0]=0XFFFF;
-        }
-
-
-    }
-}
 */
 
 
