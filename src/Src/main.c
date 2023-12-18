@@ -101,10 +101,12 @@ int main(void)
     tp_dev.init();				    //触摸屏初始化
     delay_init(168);
     lcd_fill_circle(240,400, 200, BLACK);
-    int a=20;//测试git冲突
+    int master;
+    int dev03;
     /* USER CODE END 2 */
-
+    int dev01;
   /* Infinite loop */
+  int dev02;
   /* USER CODE BEGIN WHILE */
   while (1)
   {
@@ -129,6 +131,7 @@ void SystemClock_Config(void)
   */
   __HAL_RCC_PWR_CLK_ENABLE();
   __HAL_PWR_VOLTAGESCALING_CONFIG(PWR_REGULATOR_VOLTAGE_SCALE1);
+
 
   /** Initializes the RCC Oscillators according to the specified parameters
   * in the RCC_OscInitTypeDef structure.
