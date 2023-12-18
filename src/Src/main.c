@@ -102,6 +102,7 @@ int main(void)
     delay_init(168);
     lcd_fill_circle(240,400, 200, BLACK);
     int master;
+    int dev01;
     /* USER CODE END 2 */
 
   /* Infinite loop */
