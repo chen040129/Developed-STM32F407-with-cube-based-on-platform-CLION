@@ -104,7 +104,7 @@ int main(void)
     int master;
     int dev01;
     /* USER CODE END 2 */
-
+    int dev02;
   /* Infinite loop */
 
   /* USER CODE BEGIN WHILE */
