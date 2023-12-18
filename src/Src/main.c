@@ -103,7 +103,7 @@ int main(void)
     lcd_fill_circle(240,400, 200, BLACK);
     int master;
     /* USER CODE END 2 */
-
+    int dev02;
   /* Infinite loop */
 
   /* USER CODE BEGIN WHILE */
