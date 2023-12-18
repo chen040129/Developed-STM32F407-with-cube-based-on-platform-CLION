@@ -101,7 +101,7 @@ int main(void)
     tp_dev.init();				    //触摸屏初始化
     delay_init(168);
     lcd_fill_circle(240,400, 200, BLACK);
-
+    int a=20;//测试git冲突
     /* USER CODE END 2 */
 
   /* Infinite loop */
