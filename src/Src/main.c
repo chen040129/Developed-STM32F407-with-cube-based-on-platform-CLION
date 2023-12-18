@@ -105,7 +105,7 @@ int main(void)
     /* USER CODE END 2 */
 
   /* Infinite loop */
-
+    int dev03;
   /* USER CODE BEGIN WHILE */
   while (1)
   {
