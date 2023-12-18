@@ -102,11 +102,10 @@ int main(void)
     delay_init(168);
     lcd_fill_circle(240,400, 200, BLACK);
     int master;
-    int dev03;
     /* USER CODE END 2 */
-    int dev01;
+
   /* Infinite loop */
-  int dev02;
+
   /* USER CODE BEGIN WHILE */
   while (1)
   {
